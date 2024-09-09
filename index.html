@@ -5,32 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julesmukadi</title>
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- ======================Script EmailJS =================== -->
-    <!-- <script type="text/javascript">
-        (function() {
-           emailjs.init("IKXIw3_M5Vk-U2_2"); // Remplace par ton User ID
-        })();
-     </script>
-     
-     <script type="text/javascript">
-     function sendEmail() {
-         var templateParams = {
-             nom: document.getElementById("nom").value,
-             email: document.getElementById("email").value,
-             tel: document.getElementById("tel").value,
-             message: document.getElementById("message").value,
-         };
-     
-         emailjs.send('service_xxxxxxx', 'template_xxxxxxx', templateParams)
-         .then(function(response) {
-            alert("E-mail envoyé avec succès !", response.status, response.text);
-         }, function(error) {
-            alert("Erreur lors de l'envoi de l'e-mail.", error);
-         });
-     }
-     </script> -->
-     
 </head>
 <body id="page-top" class="index">
 
@@ -38,40 +12,29 @@
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only"></span><i class="fa fa-bars"></i>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#about"><img id="companylogo" src="Img/JMW1.png" ></a>
+                <a class="navbar-brand" href="#about">
+                    <img id="companylogo" src="Img/JMW1.png" alt="Logo">
+                </a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="bs-example-navbar-collapse-1">
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About me</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    <li><a class="page-scroll" href="#">Home</a></li>
+                    <li><a class="page-scroll" href="#about">About me</a></li>
+                    <li><a class="page-scroll" href="#services">Services</a></li>
+                    <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
     <!-- Header -->
@@ -111,7 +74,7 @@
                         </p>
                     </div>
                     <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                      <img src="Img/Img1.jpeg" alt="about">
+                     <img src="Img/Img1.jpeg" alt="about">
                     </div>
                 </div>
 
@@ -270,7 +233,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="" class="img-responsive" alt="">
+                            <img src="Img/Img2.jpeg" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Project 1</h4>
@@ -284,7 +247,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="" class="img-responsive" alt="">
+                            <img src="Img/Img2.jpeg" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Project 2</h4>
@@ -298,7 +261,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="" class="img-responsive" alt="">
+                            <img src="Img/Img2.jpeg" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Project 3</h4>
@@ -312,7 +275,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="" class="img-responsive" alt="">
+                            <img src="Img/Img2.jpeg" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Project 4</h4>
@@ -326,7 +289,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="" class="img-responsive" alt="">
+                            <img src="Img/Img2.jpeg" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Project 5</h4>
@@ -340,7 +303,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="" class="img-responsive" alt="">
+                            <img src="Img/Img2.jpeg" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Project 6</h4>
@@ -429,6 +392,8 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

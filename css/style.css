@@ -4316,6 +4316,8 @@ html {
   }
   .navbar-nav {
     margin: 7.5px -15px;
+    text-align: center;
+    color: #204d74;
   }
   .navbar-nav > li > a {
     padding-top: 10px;
@@ -4529,7 +4531,7 @@ html {
     background-color: #ddd;
   }
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: #888;
+    background-color: #ffffff;
   }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
@@ -10126,7 +10128,7 @@ html {
       background-color: #ddd;
   }
   .navbar-default .navbar-toggle .icon-bar {
-      background-color: #888;
+      background-color: #fff;
   }
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
       border-color: #e7e7e7;
@@ -13618,11 +13620,11 @@ html {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #1b6d85;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: #4c4c4c;
+    color: #ff0;
     outline: none;
   }
   .navbar-custom .navbar-nav > .active > a {
@@ -13637,7 +13639,7 @@ html {
   }
   @media (min-width: 768px) {
     .navbar-custom {
-      background-color: #284e7bc7;
+      background-color: #add4f3;
       padding: 15px 0;
       -webkit-transition: padding 0.3s;
       -moz-transition: padding 0.3s;
@@ -13658,7 +13660,7 @@ html {
   
   @media (min-width: 768px) {
     .navbar-custom.affix {
-      background-color: white;
+      /* background-color: white; */
       padding: 0;
       color: black;
     }
@@ -13917,7 +13919,7 @@ html {
     }
   
     #about .timeline img {
-      width: 500px;
+      width: 350px;
       left: 50%;
       margin-left: -10px;
     }
@@ -14164,7 +14166,7 @@ html {
   *****************************************************************/
   img#companylogo{
     margin: -10px;
-    width: 90px;
+    width: 75px;
   }
   
   /****************************************************************
