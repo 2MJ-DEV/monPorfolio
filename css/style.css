@@ -13689,6 +13689,9 @@ html {
   }
   
   header .intro-body {
+    /* background-image: url(../Img/banner2.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
     display: table-cell;
     vertical-align: middle;
   }
