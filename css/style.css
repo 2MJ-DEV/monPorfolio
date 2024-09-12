@@ -13624,7 +13624,7 @@ html {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: #ff0;
+    color: #0084FA;
     outline: none;
   }
   .navbar-custom .navbar-nav > .active > a {
